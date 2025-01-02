@@ -3,16 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Google Youtube Music Widget</title>
-	<meta name="viewport"
-		  content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="styles/textonly.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles/viewer.css">
 	<script type="text/javascript" src="class/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="viewer.js"></script>
 </head>
-<!--
-Created by Topik @ https://topik.dev
-https://github.com/topik/google-youtube-music-obs-widget
--->
 <body class="isOffline">
 <main>
 	<div class="online">
@@ -26,5 +21,12 @@ https://github.com/topik/google-youtube-music-obs-widget
 		</div>
 	</div>
 </main>
+<script>
+	$(document).ready(function() {
+		// Example script to update song info text dynamically
+		$('.song-info__artist-name').text('Example Artist'); // Replace with actual dynamic data
+		$('.song-info__title').text('Example Title'); // Replace with actual dynamic data
+	});
+</script>
 </body>
 </html>
