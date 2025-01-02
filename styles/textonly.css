@@ -22,6 +22,12 @@ html, body {
 	background-color: transparent;
 	font-weight: 300;
 	font-family: 'YouTube Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 160px; /* 글씨 크기를 10배로 설정 */
+}
+
+.song-info__text_info div {
+	display: inline-block;
+	font-size: 160px; /* 글씨 크기 유지 */
 }
 
 body.isOffline {
@@ -29,8 +35,6 @@ body.isOffline {
 }
 
 .song-info__text_info div {
-	display: inline-block;
-}
 
 .song-info__text_info .song-info__title:before {
 	content: " - ";
